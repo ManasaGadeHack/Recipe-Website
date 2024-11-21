@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single Recipe || Final</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="Logo.png" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav  -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="Screenshot 2024-10-24 231354.png" alt="simply recipes" />
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> home </a>
+          <a href="about.html" class="nav-link"> about </a>
+          <a href="recipes.html" class="nav-link"> recipes </a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> contact </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <main class="page">
+      <div class="recipe-page">
+        <section class="recipe-hero">
+          <img
+            src="8717141_Lemon-Caper-Pasta_TheDailyGourmet_4x3-ad5e6969a1b9439fb1b3f4f1386ab28d.webp"
+            class="img recipe-hero-img"
+          />
+          <article class="recipe-info">
+            <h2>Chicken Lemon Caper Pasta</h2>
+            <p>
+              Lemon caper pasta is a bright and flavorful Italian-inspired dish that combines the zesty freshness of lemon with the salty tang of capers. Typically made with spaghetti or linguine, it features a sauce of olive oil, garlic, lemon juice, and zest, enhanced by the crunchy, briny capers. Finished with a sprinkle of grated Parmesan cheese, this light and refreshing pasta is perfect for a quick weeknight dinner or a special occasion, and can easily be customized with added proteins like chicken or shrimp for a heartier meal.
+            </p>
+            <div class="recipe-icons">
+              <article>
+                <i class="fas fa-clock"></i>
+                <h5>prep time</h5>
+                <p>15 min.</p>
+              </article>
+              <article>
+                <i class="far fa-clock"></i>
+                <h5>cook time</h5>
+                <p>15 min.</p>
+              </article>
+              <article>
+                <i class="fas fa-user-friends"></i>
+                <h5>serving</h5>
+                <p>6 servings</p>
+              </article>
+            </div>
+          
+          </article>
+        </section>
+        <!-- content -->
+        <section class="recipe-content">
+          <article>
+            <h4>instructions</h4>
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 1</p>
+                <div></div>
+              </header>
+              <p>
+                Fill a large pot with lightly salted water and bring to a rolling boil. Stir in pasta and return to a boil. Cook pasta uncovered, stirring occasionally, until tender yet firm to the bite, 8 to 10 minutes. Reserve 1/2 cup pasta water. Drain pasta and set aside.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 2</p>
+                <div></div>
+              </header>
+              <p>
+                Melt 1 tablespoon butter in a skillet over medium heat. Add garlic; fry until fragrant, about 1 minute. Add remaining butter and melt, then sprinkle in flour. Whisk to combine; cook for about 1 minute.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 3</p>
+                <div></div>
+              </header>
+              <p>
+                Whisk chicken soup base into reserved pasta water; pour into skillet. Whisk to make a smooth sauce. Whisk in lemon juice, 1 tablespoon at a time, to taste. Stir in parsley and capers. Season with salt and pepper. Allow to simmer until sauce thickens, about 2 minutes.
+
+              </p>
+            </div>
+            <div class="single-instruction">
+              <header>
+                <p>step 4</p>
+                <div></div>
+              </header>
+              <p>
+                Toss sauce with drained pasta.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+          </article>
+          <article class="second-column">
+            <div>
+              <h4>ingredients</h4>
+              <p class="single-ingredient">1 pound rotini pasta, or any pasta</p>
+              <p class="single-ingredient">5 tablespoons unsalted butter</p>
+              <p class="single-ingredient">2 cloves garlic, minced</p>
+              <p class="single-ingredient">1 teaspoon chicken bouillon paste</p>
+              <p class="single-ingredient">1 lemon, juiced</p>
+              <p class="single-ingredient">2 tablespoons finely chopped fresh parsley</p>
+              <p class="single-ingredient">3 tablespoons capers</p>
+              <p class="single-ingredient">salt and freshly ground black pepper to taste</p>
+
+            <div>
+              <h4>tools</h4>
+              <p class="single-tool">Pots</p>
+              <p class="single-tool">Strainer</p>
+              <p class="single-tool">Measuring Spoons</p>
+              <p class="single-tool">Skillet</p>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">Savory Spot</span> Built by
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Manasa Gade</a>
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
